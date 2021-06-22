@@ -33,7 +33,9 @@ echo 0x936d0b38ac89ea0a06ea42ecf3356beed13640d9
 sleep 6
 
 reset
+
 echo "## Welcome to Idena-AIO ##"
 sleep 3
-reset
+rm /root/idena-aioinstall.sh
 bash /home/idena-aio/idena-menu.sh
+
