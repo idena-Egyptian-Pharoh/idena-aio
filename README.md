@@ -1,2 +1,18 @@
-# Idena-Aio
-Idena Tool created by Egyptian Pharaoh , it cares about all things in idena
+  _____     _
+ |_   _|   | |
+   | |   __| |  ___  _ __    __ _
+   | |  / _  | / _ \|  _ \  / _  |
+  _| |_| (_| ||  __/| | | || (_| |
+ |_____|\__ _| \___||_| |_| \__ _|
+
+-------------------------------------
+https://www.idena-ar.com
+-------------------------------------
+please make sure that you have root access to use my script
+created by : @egyptianpharoh
+donate to my address if the tool is useful to you
+0x936d0b38ac89ea0a06ea42ecf3356beed13640d9
+## Welcome to Idena-AIO ##
+Idena-AIO install and manage your node to make it easier than before
+Idena-AIO install shared node and cares about your api keys to manage your shared node easily
+----------------------------------------------------------------------------------------------
