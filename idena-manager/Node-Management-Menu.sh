@@ -60,7 +60,7 @@ REFRESH(){ after=$((i+1)); before=$((i-1))
         1) S=M1;SC;if [[ $cur == enter ]];then R;reset && bash /home/idena-aio/idena-manager/changenodekey.sh ;fi;;
 		2) S=M2;SC;if [[ $cur == enter ]];then R;reset && bash /home/idena-aio/idena-manager/changeapi.sh ;fi;;
 		3) S=M3;SC;if [[ $cur == enter ]];then R;reset && bash /home/idena-aio/idena-manager/add-node.sh ;fi;;
-		4) S=M4;SC;if [[ $cur == enter ]];then R;reset && bash /home/idena-aio/idena-manager/idena-managerstatus.sh ;fi;;
+		4) S=M4;SC;if [[ $cur == enter ]];then R;reset && idena-manager/idena-manager status ;fi;;
 		5) S=M5;SC;if [[ $cur == enter ]];then R;reset && bash /home/idena-aio/idena-manager/Mining On ;fi;;
 		6) S=M6;SC;if [[ $cur == enter ]];then R;reset && bash /home/idena-aio/idena-manager/Mining Off ;fi;;
 		7) S=M7;SC;if [[ $cur == enter ]];then R;reset && bash /home/idena-aio/idena-manager/node-disable.sh ;fi;;
