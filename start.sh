@@ -1,0 +1,39 @@
+#!/bin/bash
+reset
+echo "  _____     _                     "
+wait
+echo " |_   _|   | |                    "
+wait
+echo "   | |   __| |  ___  _ __    __ _ "
+wait
+echo "   | |  / _  | / _ \|  _ \  / _  |"
+wait
+echo "  _| |_| (_| ||  __/| | | || (_| |"
+wait
+echo " |_____|\__ _| \___||_| |_| \__ _|"
+wait
+echo
+sleep 3
+
+
+echo "-------------------------------------"
+wait
+echo "https://www.idena-ar.com"
+wait
+echo "-------------------------------------"
+wait
+sleep 3
+
+echo please make sure that you have root access to use my script
+wait
+sleep 3
+echo  created by : @egyptianpharoh
+echo  donate to my address if the tool is useful to you
+echo 0x936d0b38ac89ea0a06ea42ecf3356beed13640d9
+sleep 6
+
+reset
+echo "## Welcome to Idena-AIO ##"
+sleep 3
+reset
+bash /home/idena-aio/idena-menu.sh
