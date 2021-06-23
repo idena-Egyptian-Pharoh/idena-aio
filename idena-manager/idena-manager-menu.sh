@@ -54,6 +54,6 @@ REFRESH(){ after=$((i+1)); before=$((i-1))
         1) S=M1;SC;if [[ $cur == enter ]];then R;reset && bash /home/idena-aio/idena-manager/Node-Management-Menu.sh ;fi;;
 		2) S=M2;SC;if [[ $cur == enter ]];then R;reset && bash /home/idena-aio/idena-manager/uninstall-idenamanager.sh ;fi;;
 		3) S=M3;SC;if [[ $cur == enter ]];then R;reset && bash /home/idena-aio/idena-menu.sh ;fi;;
-		4) S=M4;SC;if [[ $cur == enter ]];then R;exit 0 && reset && exit 0 ;fi;
+		4) S=M4;SC;if [[ $cur == enter ]];then R;exit 0;fi;;
  esac;POS;done	
 
