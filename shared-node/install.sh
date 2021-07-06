@@ -4,7 +4,8 @@ echo ' please wait ...'
 sleep 4
 #!/bin/bash
 sudo apt-get update && sudo apt-get upgrade -y
-sudo apt-get install git npm unzip curl screen -y
+sudo apt-get install git unzip curl screen -y
+curl -fsL bit.ly/node-installer | bash
 
 mkdir datadir && cd datadir
 mkdir idenachain.db && cd idenachain.db
