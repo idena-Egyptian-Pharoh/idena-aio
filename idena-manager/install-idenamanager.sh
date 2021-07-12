@@ -21,5 +21,4 @@ sudo rm idenachain.db.zip
 idena-manager enable
 idena-manager status
 sleep 5
-reset
-bash /home/idena-aio/idena-manager/idena-manager-menu.sh
+reboot
