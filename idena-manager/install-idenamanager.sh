@@ -1,4 +1,5 @@
 #!  /usr/bin/bash
+reset
 cd /home
 mkdir idena-manager
 cd idena-manager
