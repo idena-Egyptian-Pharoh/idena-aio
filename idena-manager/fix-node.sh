@@ -13,4 +13,6 @@ unzip idenachain.db.zip
 sudo rm idenachain.db.zip
 idena-manager enable $N
 idena-manager status
+sleep 5
+reset
 bash /home/idena-aio/idena-manager/Node-Management-Menu.sh
