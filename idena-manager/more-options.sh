@@ -30,7 +30,7 @@
            fi
            if [[ "$key" == "$($e \\x0A)" ]];then echo enter;fi;}
      M0(){ TPUT  5 20; $e "1)Show Address";}
-     M1(){ TPUT  6 20; $e "2)Show Balance";}
+     M1(){ TPUT  6 20; $e "2)kill invite";}
 	 M2(){ TPUT  7 20; $e "3)Send Coins";}
 	 M3(){ TPUT  8 20; $e "4)extract invite";}
 	 M4(){ TPUT  9 20; $e "5)Terminate Identity";}
@@ -54,7 +54,7 @@ REFRESH(){ after=$((i+1)); before=$((i-1))
      ES(){ MARK;$e "ENTER = main menu ";$b;read;INIT;};INIT
   while [[ "$O" != " " ]]; do case $i in
         0) S=M0;SC;if [[ $cur == enter ]];then R;reset && bash /home/idena-aio/idena-manager/showaddress.sh ;fi;;
-        1) S=M1;SC;if [[ $cur == enter ]];then R;reset && bash /home/idena-aio/idena-manager/showbalance.sh ;fi;;
+        1) S=M1;SC;if [[ $cur == enter ]];then R;reset && bash /home/idena-aio/idena-manager/killinvite.sh ;fi;;
 		2) S=M2;SC;if [[ $cur == enter ]];then R;reset && bash /home/idena-aio/idena-manager/sendidna.sh ;fi;;
 		3) S=M3;SC;if [[ $cur == enter ]];then R;reset && bash /home/idena-aio/idena-manager/extractinvite.sh ;fi;;
 		4) S=M4;SC;if [[ $cur == enter ]];then R;reset && bash /home/idena-aio/idena-manager/terminateidentity.sh ;fi;;
