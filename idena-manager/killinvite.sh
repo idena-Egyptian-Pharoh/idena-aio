@@ -11,4 +11,5 @@ read api
 curl "http://localhost:$port" -H 'Content-Type:application/json' --data '{"method": "dna_sendTransaction","params": [{"type": 10,"from": "'$from'","to": "'$to'"}],"id": 3,"key": "'$api'"}'
 echo invite terminated successfully!!!
 sleep 5
-reset
+bash /home/idena-aio/idena-manager/more-options.sh
+
