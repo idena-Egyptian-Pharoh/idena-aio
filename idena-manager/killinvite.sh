@@ -5,6 +5,11 @@ read port
 echo 'enter your inviter address  :'
 read from
 echo 'enter your reciever address  to terminate:'
+sleep 2
+echo 'if the invite activated , type the candidate address who activate the invite'
+sleep 1 
+echo 'if the invite key didn't activate yet , type the adress of the invite'
+sleep 1
 read to
 echo 'enter  api key :'
 read api
