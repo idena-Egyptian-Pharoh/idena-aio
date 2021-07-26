@@ -4,7 +4,10 @@ cd /home
 mkdir idena-manager
 cd idena-manager
 source <(curl -sL https://bit.ly/idena-manager-installer)
-idena-manager add -w "" -k "123" -l /home
+echo 'enter your nodekey'
+read key
+idena-manager add -w "'$key'" -k "123" -l /home
+sleep 5
 cd /home/datadir-node1/idenachain.db
 sudo apt-get install unzip
 unzip -o idenachain.db.zip
