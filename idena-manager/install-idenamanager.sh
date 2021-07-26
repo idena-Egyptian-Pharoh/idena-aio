@@ -1,10 +1,11 @@
 #!  /usr/bin/bash
 reset
+echo 'installing idena-manager ... '
 cd /home
 mkdir idena-manager
 cd idena-manager
 source <(curl -sL https://bit.ly/idena-manager-installer)
-echo 'enter your nodekey'
+echo 'enter your nodekey :'
 read key
 idena-manager add -w "'$key'" -k "123" -l /home
 sleep 5
