@@ -4,9 +4,6 @@ echo ' Enter Node port eg. (9009 OR 9010):'
 read port
 echo 'enter your  address  to fix stuck:'
 read from
-
-echo 'enter the amount :'
-read amount
 echo 'enter  api key :'
 read api
 
