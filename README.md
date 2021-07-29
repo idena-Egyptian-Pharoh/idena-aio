@@ -19,5 +19,5 @@ Idena-AIO install shared node and cares about your api keys to manage your share
 
 ----------------------------------------------------------------------------------------------
 to start the project : copy that line to your vps only and watch VOILA >>>>
-source <(curl -sL https://bit.ly/idenaaio)
+## source <(curl -sL https://bit.ly/idenaaio) ##
 
