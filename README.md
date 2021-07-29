@@ -1,11 +1,5 @@
-  _____     _  
- |_   _|   | |
-    | |   __| |  ___  _ __    __ _ 
-   | |  / _  | / _ \|  _ \  / _  |
-  _| |_| (_| ||  __/| | | || (_| |
- |_____|\__ _| \___||_| |_| \__ _|
- 
-
+If you have any questions dont hesitate to contact me
+Telegram username : @egyptianpharoh
 -------------------------------------
 https://www.idena-ar.com
 -------------------------------------
