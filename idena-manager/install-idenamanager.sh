@@ -1,6 +1,7 @@
 #!  /usr/bin/bash
 reset
 echo 'installing idena-manager ... '
+echo 'Please wait while downloading idenachain.db(1gb)'
 cd /home
 mkdir idena-manager
 cd idena-manager
