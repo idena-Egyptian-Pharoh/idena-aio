@@ -1,5 +1,5 @@
 If you have any questions dont hesitate to contact me
-Telegram username : @egyptianpharoh
+Telegram username : https://t.me/egyptianpharoh
 -------------------------------------
 https://www.idena-ar.com
 -------------------------------------
