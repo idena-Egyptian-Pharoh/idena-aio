@@ -24,7 +24,7 @@ echo "-------------------------------------"
 wait
 sleep 2
 echo "## Welcome to Idena-AIO ##"
-sleep 5
+sleep 2
 echo please make sure that you have root access to use my script
 wait
 sleep 3
