@@ -69,7 +69,7 @@ REFRESH(){ after=$((i+1)); before=$((i-1))
 		9) S=M9;SC;if [[ $cur == enter ]];then R;reset && bash /home/idena-aio/idena-manager/node-enable.sh ;fi;;
 		10) S=M10;SC;if [[ $cur == enter ]];then R;reset && bash /home/idena-aio/idena-manager/more-options.sh ;fi;;
 		11) S=M11;SC;if [[ $cur == enter ]];then R;reset && bash /home/idena-aio/Idena-menu.sh ;fi;;
-        12) S=M12;SC;if [[ $cur == enter ]];then R;reset&& bash /home/idena-aio/exit.sh && exit 0 ;fi;;
+        12) S=M12;SC;if [[ $cur == enter ]];then R;exit 0;fi;;
 		
         
  esac;POS;done
