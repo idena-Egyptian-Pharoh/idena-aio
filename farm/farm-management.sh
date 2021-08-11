@@ -52,8 +52,8 @@ REFRESH(){ after=$((i+1)); before=$((i-1))
      ES(){ MARK;$e "ENTER = main menu ";$b;read;INIT;};INIT
   while [[ "$O" != " " ]]; do case $i in
         0) S=M0;SC;if [[ $cur == enter ]];then R;reset && bash /home/idena-aio/farm/delegate.sh ;fi;;
-        1) S=M1;SC;if [[ $cur == enter ]];then R;reset && bash bash /home/idena-aio/farm/undelegate.sh ;fi;;
-		2) S=M2;SC;if [[ $cur == enter ]];then R;reset && bash bash /home/idena-aio/farm/killdelegator.sh ;fi;;
+        1) S=M1;SC;if [[ $cur == enter ]];then R;reset && bash  /home/idena-aio/farm/undelegate.sh ;fi;;
+		2) S=M2;SC;if [[ $cur == enter ]];then R;reset && bash /home/idena-aio/farm/killdelegator.sh ;fi;;
 		3) S=M3;SC;if [[ $cur == enter ]];then R;reset&& bash /home/idena-aio/idena-menu.sh && exit 0 ;fi;;
 		4) S=M4;SC;if [[ $cur == enter ]];then R;exit 0 && reset && exit 0 ;fi;;
         
