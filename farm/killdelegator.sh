@@ -9,4 +9,4 @@ read api
 curl "http://localhost:$port" -H 'Content-Type:application/json' --data '{"method": "dna_killDelegator","params": ["'$address'"],"id": 38,"key": "'$api'"}'
 sleep 5
 reset
-bash /home/idena-aio/idena-manager/Node-Management-Menu.sh
+bash /home/idena-aio/farm/farm-management.sh
