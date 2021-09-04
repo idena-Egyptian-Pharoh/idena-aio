@@ -2,6 +2,7 @@
 reset
 if [ -d "/home/idena-manager" ]; then
 echo "idena manager already installed"
+sleep 5
 idena-manager status
 else
 echo 'installing idena-manager ... '
