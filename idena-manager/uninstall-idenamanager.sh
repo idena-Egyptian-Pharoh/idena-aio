@@ -1,4 +1,5 @@
 #!  /usr/bin/bash
+if [ -d "/home/idena-manager" ]; then
 sudo rm /home/idena-node-linux-latest
 sudo rm /home/config-node1.json
 sudo rm /home/config-node2.json
@@ -19,4 +20,10 @@ sudo rm -r /home/datadir-node6
 sudo rm -r /home/datadir-node7
 sudo rm -r /home/datadir-node8
 sudo rm -r /root/.idena.config
+bash /home/idena-aio/idena-manager/idena-manager-menu.sh
+else
+echo " idena-manager isnot installed "
+bash /home/idena-aio/idena-manager/idena-manager-menu.sh
+fi
+
 
