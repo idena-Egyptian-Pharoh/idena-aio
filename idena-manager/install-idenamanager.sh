@@ -6,6 +6,7 @@ sleep 5
 idena-manager status
 sleep 2
 reset
+bash /home/idena-aio/idena-manager/idena-manager-menu.sh
 else
 echo 'installing idena-manager ... '
 echo 'Please wait while downloading idenachain.db(1gb)'
