@@ -23,6 +23,7 @@ sudo rm -r /root/.idena.config
 bash /home/idena-aio/idena-manager/idena-manager-menu.sh
 else
 echo " idena-manager isnot installed "
+sleep 3
 bash /home/idena-aio/idena-manager/idena-manager-menu.sh
 fi
 
