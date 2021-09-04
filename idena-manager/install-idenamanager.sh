@@ -1,6 +1,6 @@
 #!  /usr/bin/bash
 reset
-if [ -d "/home/idena-manager ] ; then
+if [ -d "/home/idena-manager" ]; then
 echo "idena manager already installed"
 idena-manager status
 else
