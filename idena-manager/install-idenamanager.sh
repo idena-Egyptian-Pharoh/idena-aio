@@ -4,6 +4,8 @@ if [ -d "/home/idena-manager" ]; then
 echo "idena manager already installed"
 sleep 5
 idena-manager status
+sleep 2
+reset
 else
 echo 'installing idena-manager ... '
 echo 'Please wait while downloading idenachain.db(1gb)'
