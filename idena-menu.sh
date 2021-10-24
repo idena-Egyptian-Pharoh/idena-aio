@@ -34,9 +34,10 @@
 	 M2(){ TPUT  6 20; $e "3)Farm Management";}
 	 M3(){ TPUT  7 20; $e "4)Extras";}
 	 M4(){ TPUT  8 20; $e "5)About";}
-	 M5(){ TPUT  9 20; $e "6)exit";}
+	 M5(){ TPUT  9 20; $e "6)Donate";}
+	 M6(){ TPUT  9 20; $e "7)exit";}
          
-      LM=5
+      LM=6
 	MENU(){ for each in $(seq 0 $LM);do M${each};done;}
     POS(){ if [[ $cur == up ]];then ((i--));fi
            if [[ $cur == dn ]];then ((i++));fi
@@ -57,6 +58,7 @@ REFRESH(){ after=$((i+1)); before=$((i-1))
 		2) S=M2;SC;if [[ $cur == enter ]];then R;reset && bash /home/idena-aio/farm/farm-management.sh ;fi;;
 		3) S=M3;SC;if [[ $cur == enter ]];then R;reset && bash /home/idena-aio/extras/extras-menu.sh ;fi;;
 		4) S=M4;SC;if [[ $cur == enter ]];then R;reset&& bash /home/idena-aio/about.sh && exit 0 ;fi;;
-		5) S=M5;SC;if [[ $cur == enter ]];then R;exit 0;fi;;
+		4) S=M5;SC;if [[ $cur == enter ]];then R;reset&& bash /home/idena-aio/donate.sh && exit 0 ;fi;;
+		5) S=M6;SC;if [[ $cur == enter ]];then R;exit 0;fi;;
         
  esac;POS;done	
