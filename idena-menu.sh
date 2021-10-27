@@ -35,7 +35,7 @@
 	 M3(){ TPUT  7 20; $e "4)Extras";}
 	 M4(){ TPUT  8 20; $e "5)About";}
 	 M5(){ TPUT  9 20; $e "6)Donate";}
-	 M6(){ TPUT  9 20; $e "7)exit";}
+	 M6(){ TPUT  10 20; $e "7)exit";}
          
       LM=6
 	MENU(){ for each in $(seq 0 $LM);do M${each};done;}
