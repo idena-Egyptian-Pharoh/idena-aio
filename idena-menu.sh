@@ -58,7 +58,7 @@ REFRESH(){ after=$((i+1)); before=$((i-1))
 		2) S=M2;SC;if [[ $cur == enter ]];then R;reset && bash /home/idena-aio/farm/farm-management.sh ;fi;;
 		3) S=M3;SC;if [[ $cur == enter ]];then R;reset && bash /home/idena-aio/extras/extras-menu.sh ;fi;;
 		4) S=M4;SC;if [[ $cur == enter ]];then R;reset&& bash /home/idena-aio/about.sh && exit 0 ;fi;;
-		4) S=M5;SC;if [[ $cur == enter ]];then R;reset&& bash /home/idena-aio/donate.sh && exit 0 ;fi;;
-		5) S=M6;SC;if [[ $cur == enter ]];then R;exit 0;fi;;
+		5) S=M5;SC;if [[ $cur == enter ]];then R;reset&& bash /home/idena-aio/donate.sh && exit 0 ;fi;;
+		6) S=M6;SC;if [[ $cur == enter ]];then R;exit 0;fi;;
         
  esac;POS;done	
