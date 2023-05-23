@@ -9,7 +9,7 @@ reset
 bash /home/idena-aio/idena-manager/idena-manager-menu.sh
 else
 echo 'installing idena-manager ... '
-echo 'Please wait while downloading idenachain.db(1gb)'
+
 cd /home
 mkdir idena-manager
 cd idena-manager
