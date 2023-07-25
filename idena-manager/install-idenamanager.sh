@@ -24,6 +24,7 @@ mv /home/datadir-node1/idenachain.db/idenachain.db-main/* /home/datadir-node1/id
 rm -r /home/datadir-node1/idenachain.db/idenachain.db-main/
 idena-manager enable
 sudo fallocate -l 2G /swapfile2 && sudo chmod 600 /swapfile2 && sudo mkswap /swapfile2 && sudo swapon /swapfile2 && echo '/swapfile2 none swap sw 0 0' | sudo tee -a /etc/fstab
+idena-manager enable-self-update
 idena-manager status
 sleep 5
 reboot
