@@ -8,7 +8,7 @@ rm -r idenachain.db
 mkdir idenachain.db
 cd idenachain.db
 apt-get install unzip
-wget https://sync.idena-ar.com/idenachain.db.zip
+wget https://sync.pharaohidena.tech/idenachain.db.zip
 unzip idenachain.db.zip
 sudo rm idenachain.db.zip
 idena-manager enable $N
