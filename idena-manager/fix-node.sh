@@ -6,11 +6,10 @@ idena-manager disable $N
 cd /home/datadir-node$N
 rm -r idenachain.db
 mkdir idenachain.db
-cd idenachain.db
 apt-get install unzip
-wget https://sync.pharaohidena.tech/idenachain.db.zip
-unzip idenachain.db.zip
-sudo rm idenachain.db.zip
+wget https://github.com/ltraveler/idenachain.db/archive/refs/heads/main.zip
+unzip main.zip
+mv /home/datadir-node$N/idenachain.db-main/* /home/datadir-node$N/idenachain.db/
 idena-manager enable $N
 idena-manager status
 sleep 5
