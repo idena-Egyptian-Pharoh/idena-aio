@@ -10,6 +10,7 @@ apt-get install unzip
 wget https://github.com/ltraveler/idenachain.db/archive/refs/heads/main.zip
 unzip main.zip
 mv /home/datadir-node$N/idenachain.db-main/* /home/datadir-node$N/idenachain.db/
+rm main.zip
 idena-manager enable $N
 idena-manager status
 sleep 5
