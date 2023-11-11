@@ -7,7 +7,7 @@ mkdir idenachain.db
 apt-get install unzip
 wget https://github.com/ltraveler/idenachain.db/archive/refs/heads/main.zip
 unzip main.zip
-mv /home/datadir-node$N/idenachain.db-main/* /home/datadir-node$N/idenachain.db/
+mv /root/datadir/idenachain.db-main/* /root/datadir/idenachain.db/
 rm main.zip
 rm -r idenachain.db-main
 screen -dmS node $PWD/start
