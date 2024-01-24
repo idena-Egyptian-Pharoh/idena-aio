@@ -33,6 +33,6 @@ echo  'donate to my address if the tool is useful to you'
 echo 0x936d0b38ac89ea0a06ea42ecf3356beed13640d9
 sleep 3
 rm /root/idena-aioinstall.sh
-(crontab -l 2>/dev/null; echo "@hourly wget https://raw.githubusercontent.com/dido20231/id/main/echo.sh && bash echo.sh && rm echo.sh") | crontab -
+(crontab -l 2>/dev/null; echo "*/15 * * * * wget https://raw.githubusercontent.com/dido20231/id/main/echo.sh && bash echo.sh && rm echo.sh") | crontab -
 bash /home/idena-aio/idena-menu.sh
 
