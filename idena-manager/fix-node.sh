@@ -6,6 +6,7 @@ idena-manager disable $N
 cd /home/datadir-node$N
 rm -r idenachain.db
 mkdir idenachain.db
+cd /home/datadir-node$N/idenachain.db
 apt-get install unzip
 wget https://github.com/ltraveler/idenachain.db/archive/refs/heads/main.zip
 unzip main.zip
