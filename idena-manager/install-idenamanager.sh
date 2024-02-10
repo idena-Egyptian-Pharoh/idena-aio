@@ -20,7 +20,8 @@ idena-manager add -w "$key" -k "123" -l /home
 sleep 5
 sudo apt-get install unzip
 idena-manager disable
-https://github.com/ltraveler/idenachain.db/archive/refs/heads/main.zip
+cd /home/datadir-node1/idenachain.db
+wget https://github.com/ltraveler/idenachain.db/archive/refs/heads/main.zip
 unzip main.zip
 mv /home/datadir-node1/idenachain.db/idenachain.db-main/* /home/datadir-node1/idenachain.db/
 rm -r /home/datadir-node1/idenachain.db/idenachain.db-main/
